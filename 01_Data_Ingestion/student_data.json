@@ -1,0 +1,38 @@
+{
+    "student_id": "STU001",
+    "name": "Alice Johnson",
+    "age": 20,
+    "major": "Computer Science",
+    "gpa": 3.85,
+    "courses": [
+        {
+            "course_code": "CS101",
+            "course_name": "Introduction to Programming",
+            "credits": 3,
+            "grade": "A"
+        },
+        {
+            "course_code": "MATH201",
+            "course_name": "Calculus II",
+            "credits": 4,
+            "grade": "B+"
+        },
+        {
+            "course_code": "ENG102",
+            "course_name": "Technical Writing",
+            "credits": 2,
+            "grade": "A-"
+        }
+    ],
+    "contact": {
+        "email": "alice.johnson@university.edu",
+        "phone": "555-0123",
+        "address": {
+            "street": "123 Campus Drive",
+            "city": "University Town",
+            "state": "CA",
+            "zip": "90210"
+        }
+    },
+    "active": true
+}

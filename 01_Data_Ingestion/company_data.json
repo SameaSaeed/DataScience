@@ -1,0 +1,76 @@
+{
+    "company": {
+        "name": "TechInnovate Solutions",
+        "founded": 2010,
+        "headquarters": {
+            "address": {
+                "street": "456 Innovation Blvd",
+                "city": "San Francisco",
+                "state": "CA",
+                "country": "USA",
+                "postal_code": "94105"
+            },
+            "coordinates": {
+                "latitude": 37.7749,
+                "longitude": -122.4194
+            }
+        },
+        "departments": {
+            "engineering": {
+                "head": "Dr. Sarah Chen",
+                "budget": 2500000,
+                "teams": {
+                    "frontend": {
+                        "lead": "Mike Rodriguez",
+                        "members": [
+                            {"name": "Emma Wilson", "role": "Senior Developer", "experience": 5},
+                            {"name": "James Park", "role": "UI/UX Designer", "experience": 3},
+                            {"name": "Lisa Zhang", "role": "Junior Developer", "experience": 1}
+                        ],
+                        "technologies": ["React", "Vue.js", "TypeScript", "CSS3"]
+                    },
+                    "backend": {
+                        "lead": "Alex Thompson",
+                        "members": [
+                            {"name": "David Kumar", "role": "Senior Developer", "experience": 7},
+                            {"name": "Maria Garcia", "role": "DevOps Engineer", "experience": 4},
+                            {"name": "John Smith", "role": "Database Admin", "experience": 6}
+                        ],
+                        "technologies": ["Python", "Node.js", "PostgreSQL", "Docker"]
+                    }
+                }
+            },
+            "marketing": {
+                "head": "Jennifer Adams",
+                "budget": 800000,
+                "campaigns": [
+                    {
+                        "name": "Product Launch 2024",
+                        "budget": 150000,
+                        "channels": ["Social Media", "Email", "Content Marketing"],
+                        "metrics": {
+                            "reach": 500000,
+                            "engagement_rate": 0.045,
+                            "conversion_rate": 0.023
+                        }
+                    }
+                ]
+            }
+        },
+        "financial": {
+            "revenue": {
+                "2022": 5200000,
+                "2023": 6800000,
+                "2024_projected": 8500000
+            },
+            "expenses": {
+                "2023": {
+                    "salaries": 3400000,
+                    "infrastructure": 800000,
+                    "marketing": 600000,
+                    "operations": 400000
+                }
+            }
+        }
+    }
+}
